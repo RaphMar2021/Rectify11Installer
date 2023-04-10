@@ -73,7 +73,7 @@ namespace Rectify11Installer.Win32
 		{
 			var extend = Theme.IsUsingDarkMode;
 
-			if (Environment.OSVersion.Version.Build >= 22523)
+			if (Environment.OSVersion.Version.Build >= 22621)
 			{
 				var micaValue = 0x02;
 				var tabbedvalue = 0x04;
